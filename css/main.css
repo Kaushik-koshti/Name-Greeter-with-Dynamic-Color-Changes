@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229, 225, 232);
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 20px; */
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.main:hover {
+    box-shadow:10px 10px 5px rgb(165, 91, 91);
+
+}
+
+.main1 h1,button{
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    /* width: 200px; */
+}
+button:hover{
+    box-shadow: 10px 10px 5px rgb(165, 91, 91);
+}
+input {
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+input:hover{
+    box-shadow:inset 5px 5px 10px rgb(204, 124, 124);
+}
